@@ -1,5 +1,5 @@
 body {
-  background: #ffaa33;
+  background: #33ff33;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
   text-align: center;
 }
 .timer span{
-  background: #ffaa33;
+  background: #33ff33;
   color: #fff;
   display: inline-block;
   font-family: monospace;
@@ -50,6 +50,7 @@ body {
   width: 150px;
   transition: background 1s;
   cursor: pointer;
+  outline: none;
 }
 .timer .timer-btn-red{
   border: 2px solid #C85454;
@@ -61,8 +62,8 @@ body {
 }
 
 .timer .timer-btn-gre{
-  border: 2px solid #ffaa33;
-  color: #ffaa33;
+  border: 2px solid #33ff33;
+  color: #33ff33;
 }
 .timer .timer-btn-red:hover {
   background: #C85454;
@@ -75,7 +76,7 @@ body {
   color: #fff;
 }
 .timer .timer-btn-gre:hover {
-  background: #ffaa33;
-  border: 2px solid #ffaa33;
+  background: #33ff33;
+  border: 2px solid #33ff33;
   color: #fff;
 }
